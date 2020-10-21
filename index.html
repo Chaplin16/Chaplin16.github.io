@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="reservia-description" content="plateforme de reservation d hotel et de chambres d'hôte">     
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <title>Reservia</title>
+        <link rel="stylesheet" href="screen.css">
+    </head>
+    <body>
+       <header class="topbar">
+            <div class="topbar--menu">
+                <img src="images/logo/Reservia@3x.png" alt="logo de Réservia"/>
+                <nav class="topbar--nav">
+                    <a href="#lodging" class="menu--items">Hébergements</a>
+                    <a href="#activities" class="menu--items">Activités</a>
+                    <a href="Register.html" class="menu--items"><strong>S'inscrire</strong></a>
+                </nav>
+            </div>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1><br>
+            <h2>En plein centre ville ou en pleine nature</h2>
+            <div class="topbar--research">   
+                <div class="button--mappy"></div>                   
+                <form method="post" action="traitement.php">
+                    <p> 
+                      <label for="Ville"> </label>
+                      <input class="input_formulaire" type="text" name="Ville" id="Ville" placeholder="  Marseille, France"/>
+                    </p>
+                </form>
+                <div class="button">
+                <p><a href="#">Rechercher</a></p>   
+                </div>
+            </div>    
+                <nav class="topbar--filtered">
+                    <span>Filtres</span>
+                    <button class="icon--economic"></button>
+                    <a href="#" class="button--economic">Economique</a>          
+                    <button class="icon--family"></button>
+                    <a href="#" class="button--family">Familial</a>
+                    <button class="icon--romantic"></button>
+                    <a href="#" class="button--romantic">Romantique</a>
+                    <button class="icon--pets"></button>
+                    <a href="#" class="button--pets">Animaux Autorisés</a>
+                </nav>
+            <p class="info">Plus de 500 logements sont disponibles dans cette ville</p>          
+        </header>
+        <main class="container">
+             <div class="block--body">              
+                 <h3 id="Lodging">Hébergements à Marseille</h3>
+                   <article class="block--body--card">
+                      <a href="#">
+                          <img src="images/hebergements/4_small/auberge_la_cannebiere_small.jpg" alt="Vue de l'auberge la Cannebiere"/>
+                          <h4 class="card--title">Auberge la Cannebière</h4>
+                          <p class="card--price">Nuit à partir de 25<strong>€</strong></p>
+                          <ul>
+                            <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                            <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li> 
+                            <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>        
+                            <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>            
+                            <li><img src="images/logo/star-grey.png" alt="etoile bleue"></li>
+                         </ul>
+                        </a>
+                    </article>
+                   <article class="block--body--card">
+                       <a href="#">
+                           <img src="images/hebergements/4_small/hotel_du_port_small.jpg" alt="Vue de l'Hôtel du port"/>
+                           <h4 class="card--title">Hôtel du port</h4>
+                           <p class="card--price">Nuit à partir de 52<strong>€</strong></p>
+                           <ul>
+                               <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                               <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li> 
+                               <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>        
+                               <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>            
+                               <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                            </ul>
+                        </a>
+                   </article>
+                   <article class="block--body--card">
+                       <a href="#">
+                            <img src="images/hebergements/4_small/hotel_les_mouettes_small.jpg" alt="Vue de l'Hôtel Les mouettes"/>
+                            <h4 class="card--title">Hôtel Les mouettes</h4>
+                            <p class="card--price">Nuit à partir de 76<strong>€</strong></p>
+                            <ul>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li> 
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>        
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>            
+                                <li><img src="images/logo/star-grey.png" alt="etoile bleue"></li>
+                             </ul>
+                        </a>
+                   </article>
+                   <article class="block--body--card">
+                       <a href="#">
+                            <img src="images/hebergements/4_small/hotel_de_la_mer_small.jpg" alt="Vue de l'Hôtel de la mer"/>
+                            <h4 class="card--title">Hôtel de la mer</h4>
+                            <p class="card--price">Nuit à partir de 46<strong>€</strong></p>
+                            <ul>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li> 
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>        
+                                <li><img src="images/logo/star-grey.png" alt="etoile bleue"></li>            
+                                <li><img src="images/logo/star-grey.png" alt="etoile bleue"></li>
+                             </ul>
+                        </a>
+                   </article>
+                   <article class="block--body--card">
+                       <a href="#">
+                            <img src="images/hebergements/4_small/auberge_le_panier_small.jpg" alt="Vue de l'auberge Le panier"/>
+                            <h4 class="card--title">Auberge Le Panier</h4>
+                            <p class="card--price">Nuit à partir de 23<strong>€</strong></p>
+                            <ul>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li> 
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>        
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>            
+                                <li><img src="images/logo/star-grey.png" alt="etoile bleue"></li>
+                             </ul>
+                        </a>
+                   </article>
+                   <article class="block--body--card">
+                       <a href="#">
+                            <img src="images/hebergements/4_small/hotel_chez_amina_small.jpg" alt="Vue de l'Hôtel chez Amina"/>
+                            <h4 class="card--title">Hôtel chez Amina</h4>
+                            <p class="card--price">Nuit à partir de 96<strong>€</strong></p>
+                            <ul>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li> 
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>        
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>            
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                             </ul>
+                        </a>
+                   </article>
+             </div>             
+             <div class="block--side">
+          <h3 class="title">Les plus populaires</h3>
+                    <article class="block--side--card">   
+                       <a href="#">
+                             <img src="images/hebergements/4_small/hotel_soleil_du_matin_small.jpg" alt="Hôtel Le soleil du matin"/>
+                             <h4 class="card--title">Hôtel Le soleil du matin</h4>
+                             <p class="card--price">Nuit à partir de 128<strong>€</strong></p>
+                             <ul>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li> 
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>        
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>            
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                             </ul>
+                            </a>
+                    </article>
+                    <article class="block--side--card">   
+                      <a href="#">
+                             <img src="images/hebergements/4_small/hotel_au_coeur_de_leau_small.jpg" alt="Vue des Chambres d'hôtes  Au coeur de  l'eau"/>
+                             <h4 class="card--title">Au coeur de l'eau<br>Chambres d'hôtes</h4>
+                             <p class="card--price">Nuit à partir de 71<strong>€</strong></p>
+                             <ul>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li> 
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>        
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>            
+                                <li><img src="images/logo/star-grey.png" alt="etoile bleue"></li>
+                             </ul>
+                            </a>
+                    </article>
+                    <article class="block--side--card">   
+                      <a href="#">
+                            <img src="images/hebergements/4_small/hotel_tout_bleu_et_blanc_small.jpg" alt="Vue de l'Hôtel Tout bleu et blanc"/>
+                            <h4 class="card--title">Hôtel Tout bleu et blanc</h4>
+                            <p class="card--price">Nuit à partir de 68<strong>€</strong></p>
+                            <ul>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li> 
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>        
+                                <li><img src="images/logo/star-blue.png" alt="etoile bleue"></li>            
+                                <li><img src="images/logo/star-grey.png" alt="etoile bleue"></li>
+                             </ul>
+                        </a>
+                    </article>
+             </div>
+             <div class="block--bottom">
+                  <h3 id="Activities">Activités à Marseille</h3>
+                      <div class="block--bottom--card">
+                         <a href="#">
+                            <img src="images/activites/3_medium/port_medium.jpg" alt="Vue sur le vieux port de Marseille"/>
+                            <h4 class="card--title">Vieux Port</h4>
+                         </a>
+                      </div>
+                      
+                      <div class="block--bottom--card">
+                         <a href="#">
+                            <img src="images/activites/4_small/fort_de_pomegues_small.jpg" alt="Vue du Fort de Pomègues"/>
+                            <h4 class="card--title">Fort de Pomègues</h4>
+                         </a>
+                      </div>
+                      <div class="block--bottom--card">
+                         <a href="#">
+                           <img src="images/activites/4_small/iles_frioul_small.jpg" alt="Vue sur les Iles du Frioul"/>
+                           <h4 class="card--title">Iles du Frioul</h4>
+                        </a>
+                      </div>
+                      <div class="block--bottom--card">
+                         <a href="#">
+                            <img src="images/activites/3_medium/calanques_medium.jpg" alt="Vue sur le Parc National des Calanques"/>
+                            <h4 class="card--title">Parc National des Calanques</h4>
+                         </a>
+                      </div>
+                      <div class="block--bottom--card">                
+                         <a href="#">
+                            <img src="images/activites/4_small/notre_dame_de_la_garde_small.jpg" alt="Vue sur Notre-Dame-de-la-Garde"/>
+                            <h4 class="card--title">Notre-Dame-de-la-Garde</h4>
+                         </a>
+                      </div>
+                      <div class="block--bottom--card">
+                          <a href="#">
+                            <img src="images/activites/4_small/parc_longchamp_small.jpg" alt="Vue sur le Parc Longchamp"/>
+                            <h4 class="card--title">Parc Longchamp</h4>
+                          </a>
+                      </div>
+             </div>
+        </main>
+        <footer class="footer">
+            <div class="footer--column--1">
+                <h5>A propos</h5>
+                <p>Fonctionnement du site<br>
+                   Conditions générales de vente<br>
+                   Données et confidentialité<br>
+                </p>
+            </div>
+            <div class="footer--column--2">
+                <h5>Nos hébergements</h5>
+                <p>Charte qualité<br>
+                   Soumettre votre hôtel<br>
+                </p>
+            </div>
+            <div class="footer--column--3">
+                <h5>Assistance</h5>
+                <p>Centre d'aide<br>
+                   Nous contacter<br>
+                </p>
+            </div> 
+        </footer>
+    </body>
+</html>
