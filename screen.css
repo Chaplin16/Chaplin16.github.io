@@ -34,10 +34,10 @@ a:hover {
     content:'';
     display: block;
     position: absolute;
-    width: 100px;
+    width: 10rem;
     height: 1px;
-    top: -15px;
-    right: 150px;
+    top: -1.5rem;
+    right: 18rem;
     background-color: var(--bleu-maquette);
 }
 .topbar--menu {
@@ -311,7 +311,7 @@ p.info {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    background-color: violet;
+    background-color: var(--gris-maquette);
     align-content: space-between;
     padding-top: 4.5rem;
     padding-right: 2.5rem;
@@ -392,7 +392,7 @@ p.info {
     max-width: 32%;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #3b91e7;
+    background-color:  var(--gris-maquette);
     padding-left: 0;
     padding-bottom: 3rem;
     border-radius: 1.5rem;
@@ -629,9 +629,16 @@ h5 + p {
 .container h3 {
     margin-left: 3rem;
 }
+
 .menu--items {
     font-size: 1.5rem;
 }
+
+.menu--items:first-child:before {
+    right: 18rem;
+    width: 16rem;
+}
+
 .topbar h1 {
     font-size: 1.7rem
 }
