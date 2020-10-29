@@ -38,6 +38,7 @@ a:hover {
     right: 18rem;
     background-color: var(--bleu-maquette);
 }
+
 .topbar--menu {
     display: flex;
     position: relative;
@@ -1227,12 +1228,13 @@ header, main {
 
 @media all and (max-width: 640px) {
  
-.body{
+.body {
     font-size: 1.4rem;
     box-sizing: content-box;
     margin-left: 2rem;
     margin-right:0;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .menu--items:first-child:before {
@@ -1254,6 +1256,11 @@ header, main {
     padding-left: 2.5rem;
     background-color: var(--gris-maquette);
 }
+
+.menu--items:nth-child(2):after  a:hover{ 
+    background-color: #000000;
+}
+
 
 .topbar--menu {
     align-items: baseline;
@@ -1373,9 +1380,10 @@ header, main {
 .icon--economic{
     position: relative;
     top: 1.1rem; 
-    left: 0.3rem;
-    width: 3.8rem;
-    height: 3.9rem; 
+    left: 0rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem; 
     z-index: 5;
 }
 
@@ -1395,8 +1403,9 @@ header, main {
     position: relative;
     bottom: 9.3rem;
     left: 17.7rem;
-    width: 3.8rem;
-    height: 3.9rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
     z-index: 5;
 }
 
@@ -1414,9 +1423,10 @@ header, main {
 .icon--romantic {
     position: relative;
     bottom: 10.9rem;
-    left: 0.5rem;
-    width: 3.8rem;
-    height: 3.9rem; 
+    left: 0.3rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
     z-index: 5;
 }
 
@@ -1433,36 +1443,30 @@ header, main {
 
 .icon--pets {
     position: relative;
-    left: 0.7rem;
+    left: 0.5rem;
     bottom: 12.4rem;
-    width: 3.8rem;
-    height:3.9rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+
     z-index: 5;
 }
 
-.info {
-
-    background-size: 3px;
-    background-position-x: 13px;
-    background-position-y: 20px;
-}
-
 .info::before {
-    position: relative;
-    top: 1.5rem;
-    left: -2.5rem;
-    width: 16px;
-    height: 16px;
+    position: absolute;
+    top: -0.5rem;
+    left: 0rem;
+    width: 17px;
+    height: 17px;
 }
 
 p.info {
     position: relative;
-    bottom: 13rem;
-    margin-top: 0;
+    bottom: 13.8rem;
     margin-right: 8rem;
-    padding-left: 7%;
+    padding-left:  2.2rem;
     font-size: 1.4rem;
-
+    
 }
 
 
@@ -1470,7 +1474,7 @@ p.info {
     flex-direction: column;
     justify-content: space-between;
     width: 80%;
-    bottom: 10rem;
+    bottom: 12rem;
     border-radius: 0;
     padding-left: 1rem;
     padding-bottom: 1rem;
@@ -1483,7 +1487,7 @@ p.info {
 }
 
 .block--side::before {
-    left: 90%;
+    left: 88%;
     top: 0.2rem;
 }
 
@@ -1610,7 +1614,6 @@ p.info {
 
 .block--body p:last-child {
     margin-bottom: 4rem;
-
     margin-top: 1rem;
     width: 40%;
     font-size: 1.6rem;
