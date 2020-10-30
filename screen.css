@@ -1314,7 +1314,6 @@ header, main {
 .body {
     font-size: 1.4rem;
     box-sizing: content-box;
-    margin-left: 2rem;
     margin-right:0;
     width: 100%;
     overflow-x: hidden;
@@ -1328,6 +1327,7 @@ header, main {
     z-index: 6;
     flex-wrap: nowrap;
     margin-top: 0;
+    margin-left: 0;
 }
 
 .topbar--menu img {
@@ -1338,6 +1338,7 @@ header, main {
 .topbar--nav {
     column-gap: 1rem;
 }
+
 .menu--items {
     font-size: 1.5rem;
     border-top: none;
@@ -1552,7 +1553,7 @@ p.info {
     border-radius: 0;
     padding-left: 1.8rem;
     padding-bottom: 1rem;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
 }
 
 .container .block--side h3 {
