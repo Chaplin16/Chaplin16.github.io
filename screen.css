@@ -83,10 +83,6 @@ a:hover {
     color: var(--bleu-maquette);
 } 
 
-.topbar--nav a:first-child {   
-    color: var(--bleu-maquette);
-} 
-
 .topbar--nav a:hover {
     text-decoration: none;
     font-weight: bold;
@@ -1182,17 +1178,17 @@ header, main {
 
 .block--side--card:nth-of-type(1) .card--price {
     padding-left: 12vw; 
-    padding-bottom: 3vh;
+    padding-bottom: 2.4rem;
 }
 
 .block--side--card:nth-of-type(2) .card--price {
-    padding-bottom: 3vh;
+    padding-bottom: 2.4rem;
     
   
 }
 
 .block--side--card:nth-of-type(3) .card--price {
-    padding-bottom: 3vh;
+    padding-bottom: 2.4rem;
 }
 
 .block--body {
@@ -1357,16 +1353,16 @@ header, main {
 .menu--items:nth-child(2) {
     position: relative;
     font-size: 1.5rem;
-    padding-left: 5rem;
+    padding-left: 7.5rem;
     padding-right: 5rem;
     top: 4.3rem;
-    right:13rem;
+    right:16rem;
 }
 
 .menu--items:last-child {
     position: relative;
     top: 0rem;
-    left: -22rem;
+    left: -24rem;
     border-bottom: none;
     -webkit-transition: all 0s ease;
     -moz-transition: all 0s ease;
@@ -1551,9 +1547,10 @@ p.info {
     width: 75%;
     bottom: 11rem;
     border-radius: 0;
-    padding-left: 1.8rem;
+    padding-right: 2rem;
+    padding-left: 2.8rem;
     padding-bottom: 1rem;
-    margin-left: 1rem;
+ 
 }
 
 .container .block--side h3 {
@@ -1774,8 +1771,10 @@ p.info {
     flex-direction: column;
     max-width: 67%;
     padding-left: 3%; 
-    padding-right: 3rem;
+    padding-right: 5rem;
     margin-left: 1rem;
+    margin-left: 0;
+    margin-right: 0;
  
 }
 
