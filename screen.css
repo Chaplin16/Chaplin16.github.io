@@ -1353,16 +1353,16 @@ header, main {
 .menu--items:nth-child(2) {
     position: relative;
     font-size: 1.5rem;
-    padding-left: 7.5rem;
-    padding-right: 5rem;
+    padding-left: 4rem;
+    padding-right: 8rem;
     top: 4.3rem;
-    right:16rem;
+    right:11rem;
 }
 
 .menu--items:last-child {
     position: relative;
     top: 0rem;
-    left: -24rem;
+    left: -22rem;
     border-bottom: none;
     -webkit-transition: all 0s ease;
     -moz-transition: all 0s ease;
@@ -1627,16 +1627,17 @@ p.info {
     width: 80%;
     bottom:8rem;
     margin-bottom: 0;
-    padding-right: 0rem;  
+    padding-right: 0; 
+    margin-left: 1rem;
     background-color: #ffffff;
 }
 
 .container .block--body h3 {
-    left: 4%;
+    left: 8%;
     top: 1%;
 }
 .block--body--card {
-    max-width: 86%;
+    max-width: 87%;
     max-height: 130px;
     padding-bottom: 9%;
     margin-bottom: 1rem;
@@ -1684,13 +1685,13 @@ p.info {
 .block--body p:last-child {
     margin-bottom: 3rem;
     margin-top: 1rem;
-    margin-right: 1rem;
+    margin-right: 0;
     width: 40%;
     font-size: 1.6rem;
 }
 
 .container .block--bottom h3 {
-    left: 6%;
+    left: 10%;
     font-size: 1.9rem;
     top: 0;
     margin-top: 0;
@@ -1706,7 +1707,8 @@ p.info {
     height: auto;
     max-height: 100%;
     margin-right: 0;
-    margin-left: 0
+    margin-left: 0;
+    padding-left: 1.2rem;
 }
 
 .block--bottom--card {
@@ -1724,9 +1726,9 @@ p.info {
 
 .block--bottom--card:nth-of-type(2) {
     display: inline-block;
-    width: 91%;
+    width: 92%;
     height: 13rem;
-    left:4%;
+    left:4.7%;
     bottom: 0rem;
 }
 
